@@ -1,0 +1,25 @@
+// compileCompressed: ../css/$1.min.$2.css
+@import url('https://fonts.googleapis.com/css?family=Lora|Karla');
+$default-font: Lora, Karla, sans-serif;
+
+h1 {
+  font-size: 50px;
+  color: white;
+}
+
+
+body, html {
+  background-color: rgba(#e94dda, 0.87);
+  font-family: $default-font;
+  display: grid;
+  height: 100%;
+}
+
+.container {
+  margin: auto;
+  padding-bottom: 250px;
+}
+#baffle {
+  font-size: 40px;
+  color: white;
+}
